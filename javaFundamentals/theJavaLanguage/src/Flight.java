@@ -12,7 +12,7 @@ public class Flight {
 
     @Override
     public String toString() {
-        if (fClass == null || fClass.isBlank()) {
+        if (fClass == null || fClass.isEmpty()) {
             return "Flight #" + fNumber;
         } else {
             return "Flight Class " + fClass;
